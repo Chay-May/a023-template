@@ -1,4 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+/* img {
+    max-width: 100%;
+    max-height: 100%;
+   } OU
+   img {
+    max-width e max-height
+   } redimensiona imagens no css: https://www.delftstack.com/pt/howto/css/resize-image-css/*/
+
+/* body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+} */
+
+header {
+    height: 15vh;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    min-height: 70vh;
+    background-color: lightgoldenrodyellow;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure{
+width: 200px;
+}
+
+footer{
+    height: 15vh;
+    background-color: orange;
+    bottom: 0px
 }
